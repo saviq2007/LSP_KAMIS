@@ -1,0 +1,22 @@
+
+CREATE DATABASE siswa_smk;
+
+
+USE siswa_smk;
+
+CREATE TABLE siswa_ujikom (
+    id_siswa INT(11) NOT NULL AUTO_INCREMENT,
+    NIS INT(11) NOT NULL,
+    nama VARCHAR(255) NOT NULL,
+    tempat_lahir VARCHAR(50) NOT NULL,
+    tanggal_lahir DATE NOT NULL,
+    jenis_kelamin VARCHAR(100) NOT NULL,
+    kelas VARCHAR(20) NOT NULL,
+    alamat VARCHAR(255) NOT NULL,
+    kelurahan VARCHAR(100) NOT NULL,
+    kecamatan VARCHAR(100) NOT NULL,
+    kabupaten_kota VARCHAR(100) NOT NULL,
+    propinsi VARCHAR(100) NOT NULL,
+    foto VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id_siswa)
+);
